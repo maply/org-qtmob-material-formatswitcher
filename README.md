@@ -5,11 +5,7 @@ Preview your [qml-material](https://github.com/papyros/qml-material) app under c
 
 Within your app's project folder:
 
-```
-git submodule add https://github.com/maply/org.qtmob.material.formatswitcher lib/org.qtmob.material.formatswitcher
-git submodule init
-git submodule update
-```
+`git submodule add https://github.com/maply/org.qtmob.material.formatswitcher lib/org.qtmob.material.formatswitcher`
 
 Include the project into your app's .pro file:  
 `include(lib/org.qtmob.material.formatswitcher/org_qtmob_material_formatswitcher.pri)`
