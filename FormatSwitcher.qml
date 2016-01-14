@@ -4,9 +4,11 @@ import Material 0.1
 Item {
     id: switcher
 
+    property QtObject win
+
     function sw(width,height) {
-        app.width = Units.dp(width);
-        app.height = Units.dp(height);
+        win.width = Units.dp(width);
+        win.height = Units.dp(height);
     }
 
     Action {shortcut: "Ctrl+1"; onTriggered: switcher.sw(768,1024)} // iPad
