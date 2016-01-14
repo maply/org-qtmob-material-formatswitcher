@@ -10,7 +10,7 @@ Within your app's project folder:
 `git submodule add https://github.com/maply/org.qtmob.material.formatswitcher lib/org/qtmob/material/formatswitcher`
 
 Include the project into your app's .pro file:  
-`include(lib/org.qtmob.material.formatswitcher/org_qtmob_material_formatswitcher.pri)`
+`include(lib/org/qtmob/material/formatswitcher/org_qtmob_material_formatswitcher.pri)`
 
 For autocompletion and syntax highlighting in Qt Creator, add the following to your app's .pro file:  
 `QML_IMPORT_PATH += $$PWD/lib`
