@@ -18,7 +18,7 @@ Item {
     Action {shortcut: "Ctrl+4"; onTriggered: switcher.sw(320,480)} // iPhone 4
     Action {shortcut: "Ctrl+5"; onTriggered: switcher.sw(320,568)} // iPhone 5
     Action {shortcut: "Ctrl+6"; onTriggered: switcher.sw(375,667)} // iPhone 6
-    Action {shortcut: "Ctrl+6+P"; onTriggered: switcher.sw(414,736)} // iPhone 6 Plus
+    Action {shortcut: "Ctrl+0"; onTriggered: switcher.sw(414,736)} // iPhone 6 Plus
 
     Action {shortcut: "Alt+4"; onTriggered: switcher.sw(384,640)} // Nexus 4
     Action {shortcut: "Alt+5"; onTriggered: switcher.sw(360,640)} // Nexus 5
