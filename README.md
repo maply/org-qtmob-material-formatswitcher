@@ -26,6 +26,8 @@ import org.qtmob.material.formatswitcher 0.1
 
 ApplicationWindow {
     id: app // currently only this window id is supported
+    
+    FormatSwitcher{}
     ...
 }
 ```
