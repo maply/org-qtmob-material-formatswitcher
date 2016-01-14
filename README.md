@@ -1,5 +1,5 @@
 # org.qtmob.material.formatswitcher
-Preview you qml-material app under common mobile screen sizes with keyboard shortcuts
+Preview your [qml-material](https://github.com/papyros/qml-material) app under common mobile screen sizes with keyboard shortcuts
 
 ## Installation
 
