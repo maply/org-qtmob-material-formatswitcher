@@ -1,8 +1,6 @@
 import QtQuick 2.5
 import Material 0.1
 
-pragma Singleton
-
 Item {
     id: switcher
 
