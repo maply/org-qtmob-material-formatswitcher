@@ -12,8 +12,8 @@ Within your app's project folder:
 Include the project into your app's .pro file:  
 `include(lib/org.qtmob.material.formatswitcher/org_qtmob_material_formatswitcher.pri)`
 
-Add the qrc path to the QML engine import path (usually in main.cpp):  
-`engine.addImportPath("qrc:/");`
+For autocompletion and syntax highlighting in Qt Creator, add the following to your app's .pro file:  
+`QML_IMPORT_PATH += $$PWD/lib`
 
 ## Usage
 
