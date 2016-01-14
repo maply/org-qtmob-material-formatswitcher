@@ -11,6 +11,7 @@ Item {
         win.height = Units.dp(height);
     }
 
+    // NOTE: on OSX, press Cmd rather than Ctrl
     Action {shortcut: "Ctrl+1"; onTriggered: switcher.sw(768,1024)} // iPad
     Action {shortcut: "Ctrl+2"; onTriggered: switcher.sw(1024,1366)} // iPad Pro
 
