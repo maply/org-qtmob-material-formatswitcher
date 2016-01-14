@@ -19,7 +19,7 @@ Add the qrc path to the QML engine import path (usually in main.cpp):
 
 ## Usage
 
-'''qml
+'''~qml
 import QtQuick 2.5
 import Material 0.1
 import org.qtmob.material.formatswitcher 0.1
