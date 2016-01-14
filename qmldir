@@ -1,0 +1,3 @@
+module org.qtmob.formatswitcher 1.0
+
+singleton FormatSwitcher 1.0 FormatSwitcher.qml

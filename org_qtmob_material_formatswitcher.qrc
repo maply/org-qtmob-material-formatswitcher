@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/org/qtmob/material/formatswitcher">
+        <file>FormatSwitcher.qml</file>
+        <file>qmldir</file>
+    </qresource>
+</RCC>
