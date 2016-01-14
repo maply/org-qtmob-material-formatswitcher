@@ -29,7 +29,7 @@ For autocompletion and syntax highlighting in Qt Creator, add the following to y
 ```qml
 import QtQuick 2.5
 import Material 0.1
-import org.qtmob.material.formatswitcher 0.1
+import org.qtmob.material.formatswitcher 1.0
 
 ApplicationWindow {
     id: app
