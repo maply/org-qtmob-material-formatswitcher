@@ -1,4 +1,4 @@
-# org.qtmob.material.formatswitcher
+# org-qtmob-material-formatswitcher
 Preview your [qml-material](https://github.com/papyros/qml-material) app under common mobile screen sizes with keyboard shortcuts  
 
 Have a look at `FormatSwitcher.qml` for available devices and keyboard shortcuts.
@@ -7,7 +7,7 @@ Have a look at `FormatSwitcher.qml` for available devices and keyboard shortcuts
 
 Within your app's project folder:
 
-`git submodule add https://github.com/maply/org.qtmob.material.formatswitcher lib/org/qtmob/material/formatswitcher`
+`git submodule add https://github.com/maply/org-qtmob-material-formatswitcher lib/org/qtmob/material/formatswitcher`
 
 Commit to add the submodule's reference permanently to your repo.
 
