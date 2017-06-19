@@ -1,5 +1,5 @@
-import QtQuick 2.5
-import Material 0.1
+import QtQuick 2.7
+import QtQuick.Controls 1.4
 
 Item {
     id: switcher
@@ -7,8 +7,8 @@ Item {
     property QtObject win
 
     function sw(width,height) {
-        win.width = Units.dp(width);
-        win.height = Units.dp(height);
+        win.width = width;
+        win.height = height;
     }
 
     // NOTE: on OSX, press Cmd rather than Ctrl
